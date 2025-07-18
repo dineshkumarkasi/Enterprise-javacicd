@@ -55,4 +55,21 @@ To automate the entire software delivery lifecycle of a Spring Boot application 
 ---
 
 ## 📁 Project Structure
+.
+├── Jenkinsfile                    # CI/CD pipeline definition
+├── Dockerfile                    # Docker image definition for Spring Boot app
+├── pom.xml                       # Maven project descriptor
+├── src/                          # Spring Boot application source code
+│   └── main/
+│       ├── java/                 # Java source files
+│       └── resources/            # Application properties and config
+├── manifests/                    # Kubernetes manifests for ArgoCD deployment
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ...
+├── cicd/                         # Jenkins & SonarQube config files
+│   ├── sonar-project.properties
+│   └── ...
+├── README.md                     # Project overview and documentation
+└── Architecture-planned.png      # CI/CD pipeline architecture diagram
 
