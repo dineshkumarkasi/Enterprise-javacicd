@@ -30,7 +30,7 @@ To automate the entire software delivery lifecycle of a Spring Boot application 
 ## 📐 Architecture Diagram
 
  
-![Architecture Diagram](architecture-planned.png)
+![Architecture Diagram](architecture planned.png)
 
 > 💡 **Replace the above image link** with the correct path to your architecture diagram image in the GitHub repo. For example:
 >
