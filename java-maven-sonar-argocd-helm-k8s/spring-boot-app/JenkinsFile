@@ -29,7 +29,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                withDockerRegistry([credentialsId: 'dockerhub', url: '']) {
+                withDockerRegistry([credentialsId: 'docker-cred', url: '']) {
                     sh 'docker push dinesh1105/springboot-app:v1'
                 }
             }
